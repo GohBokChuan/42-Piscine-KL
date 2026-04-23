@@ -9,7 +9,7 @@ int ft_strlen(char *str)
     {
         i++;
     }
-    return(i);
+    return(i); //need to return something bcos the parameter char *str stated u will need to return unless its a void
 }
 
 int main()
