@@ -1,6 +1,5 @@
 #include <unistd.h>
 
-//-Version 1-
 void ft_putstr(char *str)
 {
     int i;
@@ -22,7 +21,9 @@ int main()
     return 0;
 }
 
-//Miscellanous method
+//Miscellanous method//
+
+#include <stdio.h>
 
 void ft_putstr(char *str)
 {
