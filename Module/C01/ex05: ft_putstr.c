@@ -20,9 +20,10 @@ int main()
     ft_putstr(string);
     return 0;
 }
+//-------------End of Code---------------
+
 
 //Miscellanous method//
-
 #include <stdio.h>
 
 void ft_putstr(char *str)
