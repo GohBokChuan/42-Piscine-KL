@@ -27,6 +27,7 @@ int main()
 
 // ----------End of Code---------------
 
+
 //Miscellanous Method for calling printf() instead of int main() via char *ft_strcpy() function
 char *ft_strcpy(char *dest, char *src)
 {
