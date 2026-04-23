@@ -40,7 +40,7 @@ char *ft_strcpy(char *dest, char *src)
         printf("Copying char: %c at index %d\n", src[i], i); //this is just an extra info to showcase the step. Can omit.
         i++;
     }
-    dest[i] = '\0';
+    dest[i] = '\0'; //Must end the string with '\0' before return as string.
     
     // Print the final result before returning
     printf("Final copied string in function: %s\n", dest);   //printf with %s is only called after While loop bcos you want to wait until the "sentence" is fully built.
