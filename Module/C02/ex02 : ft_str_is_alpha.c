@@ -8,11 +8,11 @@ int ft_str_is_alpha(char *str)
     {
         if(!((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z')))
         {
-            return 0;   //check for error first, one single error and its out. if alphabet checks first, it will only check the first and ends immediately.
+            return 0;   //check for error first (other than alphabets and spaces), one single error and its out. if alphabet checks first, it will only check the first and ends immediately.
         }
         i++;
     }
-    return 1; 
+    return 1; //check and return if only alphabets exists and if its empty string.
 }
 
 int main() 
