@@ -40,7 +40,8 @@ char *ft_strcpy(char *dest, char *src)
         printf("Copying char: %c at index %d\n", src[i], i); //this is just an extra info to showcase the step. Can omit.
         i++;
     }
-    dest[i] = '\0'; //Must end the string with '\0' before return as string.
+    dest[i] = '\0'; //Must end the string with '\0' before return as string. the dest assigned the size of [20], but the string eats up at 15. It will add '\0' to signal null (telling system to stop). 
+                    //Indexes 17–19: These remain untouched (containing whatever "garbage" values were there before). They aren't converted; they are just ignored because the program stops at index 16.
     
     // Print the final result before returning
     printf("Final copied string in function: %s\n", dest);   //printf with %s is only called after While loop bcos you want to wait until the "sentence" is fully built.
