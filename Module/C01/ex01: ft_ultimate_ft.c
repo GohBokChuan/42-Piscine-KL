@@ -4,7 +4,9 @@ void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
-/*
+
+//-----------End of Code-----------
+
 int     main()
 {
         int a = 12;
@@ -21,4 +23,4 @@ int     main()
 	ft_ultimate_ft(&i);
 	printf("%d\n", *********nbr);
 	return 0;
-}*/
+}
