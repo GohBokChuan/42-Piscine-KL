@@ -11,3 +11,11 @@ void	ft_print_alphabet(void)
 		letter++;
 	}
 }
+
+//-----------End of Code-----------
+
+int	main(void)
+{
+	ft_print_alphabet();
+	return (0);          
+}
