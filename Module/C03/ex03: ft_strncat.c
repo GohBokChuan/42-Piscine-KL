@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char *ft_strcat(char *dest, char *src, unsigned int nb)
+char *ft_strncat(char *dest, char *src, unsigned int nb)
 {
     int i;
     i = 0;
@@ -13,7 +13,7 @@ char *ft_strcat(char *dest, char *src, unsigned int nb)
         i++;
     }
     
-    while(src[j] != '\0' && i < nb)
+    while(src[j] != '\0' && j < nb) //nb is inserted for the counter j represented by src bcos it starts to copy src from 0. 
     {
         dest[i] = src[j];
         i++;
@@ -27,10 +27,10 @@ char *ft_strcat(char *dest, char *src, unsigned int nb)
 
 int main() 
 {
-    char dest[50] = "Hello";
+    char dest[20] = "Hello";
     char src[] = "There";
 
-    ft_strcat(dest, src, 15);
+    ft_strncat(dest, src, 5);  //nb/n is the maximum number of bytes to copy from src.
     
     printf("This is my string: %s\n", dest);
     return 0;
