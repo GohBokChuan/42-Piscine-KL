@@ -16,7 +16,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
         dest[i] = '\0';
         i++;
     }
-	dest[i] = '\0';
+//	dest[i] = '\0';
     return dest;
 }
 
