@@ -22,8 +22,8 @@ int	main(void)
 	char	str2[] = "hElLo ThErE";
 	char	str3[] = "hello 123!";
 
-	printf("str1 result: %s\n", ft_strupcase(str1));
-	printf("str2 result: %s\n", ft_strupcase(str2));
-	printf("str3 result: %s\n", ft_strupcase(str3));
+	printf("Result of str1 is:  %s\n", ft_strupcase(str1));
+	printf("REsult of str2 is:  %s\n", ft_strupcase(str2));
+	printf("REsult of str3 is:  %s\n", ft_strupcase(str3));
 	return (0);
 }
